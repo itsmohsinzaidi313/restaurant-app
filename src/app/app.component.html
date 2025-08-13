@@ -3,7 +3,7 @@
         <mat-drawer #drawer mode="over">
             <app-drawer-contents (restaurntClicked)="drawer.toggle()" />
         </mat-drawer>
-        <mat-drawer-content >
+        <mat-drawer-content>
             <app-toolbar [drawer]="drawer" (menuPressed)="onMenuButtonClicked($event)"></app-toolbar>
             <router-outlet class="main-content"></router-outlet>
         </mat-drawer-content>

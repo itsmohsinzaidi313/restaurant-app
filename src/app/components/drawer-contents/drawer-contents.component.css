@@ -1,0 +1,8 @@
+.list-item {
+    color: black;
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    height: 5%;
+}
