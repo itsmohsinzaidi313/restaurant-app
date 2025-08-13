@@ -1,0 +1,9 @@
+<h4 style="padding-left: 5%;">{{drawerTitle}}</h4>
+<mat-list>
+    <mat-list-item *ngFor="let x of restaurants$ | async">
+        <button mat-button [routerLink]="['restaurants', x.id]" style="color: black;" (click)="restaurntClicked.emit()">
+            <mat-icon>arrow_right</mat-icon>
+            <h5>{{x.name.toUpperCase()}}</h5>
+        </button>
+    </mat-list-item>
+</mat-list>

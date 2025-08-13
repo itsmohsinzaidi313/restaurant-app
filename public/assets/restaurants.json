@@ -1,0 +1,12 @@
+{
+  "restaurants": [
+    { "id": 1, "name": "Pizza Palace", "cuisine": "Italian", "rating": 4.5, "image": "https://example.com/pizza-palace.jpg" },
+    { "id": 2, "name": "Burger Barn", "cuisine": "American", "rating": 4.2, "image": "https://example.com/burger-barn.jpg" }
+  ],
+  "menuItems": [
+    { "id": 101, "restaurantId": 1, "name": "Margherita Pizza", "price": 12.50, "description": "Classic pizza with fresh mozzarella and basil." },
+    { "id": 102, "restaurantId": 1, "name": "Pepperoni Pizza", "price": 14.00, "description": "Pizza loaded with pepperoni slices." },
+    { "id": 201, "restaurantId": 2, "name": "Classic Burger", "price": 8.00, "description": "A classic beef patty with lettuce, tomato, and onion." },
+    { "id": 202, "restaurantId": 2, "name": "Bacon Cheeseburger", "price": 10.50, "description": "Burger with crispy bacon and melted cheddar cheese." }
+  ]
+}
